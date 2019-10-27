@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 
-class App extends Component{
+class App extends React.Component{
   render() {
-    return (<div><h1>Hello,World!</h1></div>);}
+    return (<h1>Hello,World!</h1>);
+  }
 }
 
 export default App;
